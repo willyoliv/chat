@@ -18,7 +18,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-Este projeto consiste em um pequeno chat. Ele possui integração com o Firebase para guardar e efetuar o login social com o Google. Além disto, ele utiliza abiblioteca Provider para gerência de estado.
+Este projeto consiste em um pequeno chat. Ele possui integração com o Firebase para guardar e efetuar o login social com o Google. Além disto, ele utiliza a biblioteca Provider para gerência de estado.
 
 
 ---
