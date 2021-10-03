@@ -26,7 +26,7 @@ class WelcomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     CircleAvatar(
-                      radius: 40,
+                      radius: 60,
                       backgroundImage: NetworkImage(user.photoURL!),
                     ),
                     SizedBox(
@@ -35,11 +35,13 @@ class WelcomePage extends StatelessWidget {
                     Text(
                       "Bem vindo(a)",
                       style: TextStyles.titleWelcome,
+                      textAlign: TextAlign.center,
                     ),
                     FittedBox(
                       child: Text(
                         "${user.displayName!}",
                         style: TextStyles.titleUserHome,
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ],

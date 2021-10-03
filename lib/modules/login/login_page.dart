@@ -57,15 +57,16 @@ class _LoginPageState extends State<LoginPage> {
                     ? CircularProgressIndicator()
                     : ElevatedButton.icon(
                         style: ElevatedButton.styleFrom(
+                          fixedSize: Size(250, 50),
                           primary: AppColors.shape,
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20),
+                            borderRadius: BorderRadius.circular(30),
                           ),
                         ),
                         icon: Image.asset(
                           AppImages.google,
-                          height: 20,
-                          width: 20,
+                          height: 25,
+                          width: 25,
                         ),
                         label: Text(
                           "Entrar com Google",

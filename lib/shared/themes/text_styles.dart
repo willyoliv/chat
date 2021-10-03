@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class TextStyles {
   static final buttonGray = GoogleFonts.inter(
-    fontSize: 12,
+    fontSize: 17,
     fontWeight: FontWeight.w400,
     color: AppColors.grey,
   );
