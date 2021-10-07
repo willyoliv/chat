@@ -80,7 +80,7 @@ $ flutter run
 
 ---
 
-## 🛠️ Recursos e Versões
+##🛠️ Recursos e Versões
 
 - [Flutter](https://flutter.dev/): 2.5
 - [cloud_firestore](https://pub.dev/packages/cloud_firestore): ^2.5.3
