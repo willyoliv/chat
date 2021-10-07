@@ -24,14 +24,14 @@ Este projeto consiste em um simples aplicativo de chat construído em Flutter e 
 
 ## 🎨 Layout - Páginas
  O app possui três páginas bem simples, sendo elas:
- * Páginas de login
- * Páginas de bem-vindo
+ * Página de login
+ * Página de bem-vindo
  * Chat
 
 <p align="center"> 
-  <img alt="Home" title="#Home" src="./assets/prints/screenshot1.jpg"  width="200px">
-  <img alt="Home" title="#Welcome" src="./assets/prints/screenshot2.jpg"  width="200px">
-  <img alt="Home" title="#Chat" src="./assets/prints/screenshot3.jpg"  width="200px">
+  <img alt="Home" title="Página de login" src="./assets/prints/screenshot1.jpg"  width="200px">
+  <img alt="Home" title="Página de boas-vindas" src="./assets/prints/screenshot2.jpg"  width="200px">
+  <img alt="Home" title="Página do chat" src="./assets/prints/screenshot3.jpg"  width="200px">
 </p>
 
 ---
