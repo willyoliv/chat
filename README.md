@@ -12,7 +12,7 @@ Tabela de conteúdos
    * [Como Executar o Projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#-pré-requisitos)
      * [Rodando o Aplicativo](#-rodando-o-aplicativo)
-   * [Recursos e Versões](#-tecnologias-e-versões)
+   * [Recursos e Versões](#-recursos-e-versões)
    * [Autor](#-autor)
 <!--te-->
 
@@ -80,7 +80,7 @@ $ flutter run
 
 ---
 
-## 🛠 Recursos e Versões
+## 🛠️ Recursos e Versões
 
 - [Flutter](https://flutter.dev/): 2.5
 - [cloud_firestore](https://pub.dev/packages/cloud_firestore): ^2.5.3
