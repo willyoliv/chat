@@ -12,7 +12,7 @@ Tabela de conteúdos
    * [Como Executar o Projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#-pré-requisitos)
      * [Rodando o Aplicativo](#-rodando-o-aplicativo)
-   * [Recursos e Versões](#-Recursos-e-Versões)
+   * [Recursos](#-recursos)
    * [Autor](#-Autor)
 <!--te-->
 
@@ -80,7 +80,7 @@ $ flutter run
 
 ---
 
-##🛠️ Recursos e Versões
+## 🛠 Recursos
 
 - [Flutter](https://flutter.dev/): 2.5
 - [cloud_firestore](https://pub.dev/packages/cloud_firestore): ^2.5.3
@@ -92,7 +92,7 @@ $ flutter run
 
 ---
 
-## ✏️ Autor
+## ✏ Autor
 
 Willy Oliveira - [Linkedin](https://www.linkedin.com/in/willy-oliveira-6b02731a0/)
 
