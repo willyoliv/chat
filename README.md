@@ -83,12 +83,12 @@ $ flutter run
 ## 🛠 Recursos
 
 - [Flutter](https://flutter.dev/): 2.5
-- [cloud_firestore](https://pub.dev/packages/cloud_firestore): ^2.5.3
-- [firebase_auth](https://pub.dev/packages/firebase_auth): ^3.1.1
-- [firebase_core](https://pub.dev/packages/firebase_core): ^1.6.0
-- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter): ^9.1.0
-- [google_fonts](https://pub.dev/packages/google_fonts): ^2.1.0
-- [google_sign_in](https://pub.dev/packages/google_sign_in): ^5.1.1
+- [cloud_firestore](https://pub.dev/packages/cloud_firestore): 2.5.3
+- [firebase_auth](https://pub.dev/packages/firebase_auth): 3.1.1
+- [firebase_core](https://pub.dev/packages/firebase_core): 1.6.0
+- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter): 9.1.0
+- [google_fonts](https://pub.dev/packages/google_fonts): 2.1.0
+- [google_sign_in](https://pub.dev/packages/google_sign_in): 5.1.1
 
 ---
 
