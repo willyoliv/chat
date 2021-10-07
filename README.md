@@ -12,8 +12,8 @@ Tabela de conteúdos
    * [Como Executar o Projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#-pré-requisitos)
      * [Rodando o Aplicativo](#-rodando-o-aplicativo)
-   * [Recursos e Versões](#-recursos-e-versões)
-   * [Autor](#-autor)
+   * [Recursos e Versões](#-Recursos-e-Versões)
+   * [Autor](#-Autor)
 <!--te-->
 
 
