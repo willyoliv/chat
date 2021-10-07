@@ -8,7 +8,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
-   * [Layout](#-layout)
+   * [Layout](#-layout---páginas)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
      * [Rodando o Aplicativo](#-rodando-o-aplicativo)
@@ -18,31 +18,28 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-Este projeto consiste em um pequeno chat. Ele possui integração com o Firebase para guardar e efetuar o login social com o Google. Além disto, ele utiliza a biblioteca Provider para gerência de estado.
-
+Este projeto consiste em um simples aplicativo de chat construído em Flutter e que possui integração com o Firebase. O app funciona de forma bem simples, o usuário efetua o login com sua conta Google e apartir de efetuado o login ele pode acessar a área para enviar mensagens. O app utiliza o Firebase tanto para guardar as mensagens quanto para a autenticação do usuário, além disso ele trabalha por com gerência de estado por meio da lib Provider.
 
 ---
 
-## 🎨 Layout
-
-Imagens das telas do aplicativo:
+## 🎨 Layout - Páginas
+ O app possui três páginas bem simples, sendo elas:
+ * Páginas de login
+ * Páginas de bem-vindo
+ * Chat
 
 <p align="center"> 
   <img alt="Home" title="#Home" src="./assets/prints/screenshot1.jpg"  width="200px">
-  <img alt="Home" title="#Home" src="./assets/prints/screenshot2.jpg"  width="200px">
-  <img alt="Home" title="#Home" src="./assets/prints/screenshot3.jpg"  width="200px">
+  <img alt="Home" title="#Welcome" src="./assets/prints/screenshot2.jpg"  width="200px">
+  <img alt="Home" title="#Chat" src="./assets/prints/screenshot3.jpg"  width="200px">
 </p>
-
-
-
-
 
 ---
 
 ## 🚀 Como executar o projeto
 Abaixo são apresentados os passos necessários para que o App funcione.
 
-### Pré-requisitos
+### :page_with_curl: Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Flutter](https://flutter.dev/docs/get-started/install). 
