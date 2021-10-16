@@ -2,7 +2,7 @@ import 'package:new_chat/shared/auth/google_signin_provider.dart';
 import 'package:new_chat/shared/themes/app_colors.dart';
 import 'package:new_chat/shared/themes/text_styles.dart';
 import 'package:new_chat/shared/widgets/Messages/messages.dart';
-import 'package:new_chat/shared/widgets/input_text_message/input_text_message.dart';
+import 'package:new_chat/shared/widgets/input_message/input_message.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
@@ -21,6 +21,7 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         centerTitle: true,
         title: Text(
@@ -55,7 +56,11 @@ class _ChatPageState extends State<ChatPage> {
           child: Column(
             children: [
               Expanded(child: Messages(user: widget.user)),
-              InputTextMessage(user: widget.user)
+              Container(
+                color: AppColors.backgroundSecundary,
+                padding: EdgeInsets.only(top: 10),
+                child: InputMessage(user: widget.user),
+              ),
             ],
           ),
         ),

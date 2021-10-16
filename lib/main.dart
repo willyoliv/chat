@@ -1,6 +1,7 @@
 import 'package:new_chat/chat_app.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:new_chat/modules/image_page/image_page.dart';
 import 'package:new_chat/shared/auth/google_signin_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -36,6 +37,9 @@ class MainApp extends StatelessWidget {
           primarySwatch: PrimaryColor,
         ),
         home: ChatApp(),
+        routes: {
+          '/image_page': (context) => const ImagePage(),
+        },
       ),
     );
   }

@@ -73,13 +73,21 @@ class _LoginPageState extends State<LoginPage> {
                           style: TextStyles.buttonGray,
                         ),
                         onPressed: () {
+                          var hasUser;
                           setState(() {
                             _isLoading = true;
                           });
                           final provider = Provider.of<GoogleSignInProvider>(
                               context,
                               listen: false);
-                          provider.googleLogin();
+                          provider.googleLogin().then((value) {
+                            hasUser = value;
+                            if (!hasUser) {
+                              setState(() {
+                                _isLoading = false;
+                              });
+                            }
+                          });
                         },
                       ),
               ),

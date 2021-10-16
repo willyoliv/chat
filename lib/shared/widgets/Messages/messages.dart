@@ -30,6 +30,7 @@ class Messages extends StatelessWidget {
             message: chatDocs[i].get('message'),
             userName: chatDocs[i].get('userName'),
             userImage: chatDocs[i].get('userPerfilImageUrl'),
+            imageUrl: chatDocs[i].get('imageUrl'),
             belongsToMe: chatDocs[i].get('userId') == user.uid!,
             keyBubble: ValueKey(chatDocs[i].id),
           ),
