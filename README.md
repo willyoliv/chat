@@ -30,9 +30,9 @@ Este projeto consiste em um simples aplicativo de chat construído em Flutter e 
  * Chat
 
 <p align="center"> 
-  <img alt="#login" title="Página de login" src="./assets/prints/screenshot1.jpg"  width="200px">
-  <img alt="#welcome" title="Página de boas-vindas" src="./assets/prints/screenshot2.jpg"  width="200px">
-  <img alt="#chat" title="Página do chat" src="./assets/prints/screenshot3.jpg"  width="200px">
+  <img alt="#login" title="Página de login" src="./assets/prints/Screenshot_login.jpg"  width="200px">
+  <img alt="#welcome" title="Página de boas-vindas" src="./assets/prints/Screenshot_welcome.jpg"  width="200px">
+  <img alt="#chat" title="Página do chat" src="./assets/prints/Screenshot_chat.jpg"  width="200px">
 </p>
 
 ---
@@ -82,13 +82,15 @@ $ flutter run
 
 ## 🛠 Recursos
 
-- [Flutter](https://flutter.dev/): 2.5
+- [Flutter](https://flutter.dev): 2.5
+- [cached_network_image](https://pub.dev/packages/cached_network_image): ^3.1.0
 - [cloud_firestore](https://pub.dev/packages/cloud_firestore): 2.5.3
 - [firebase_auth](https://pub.dev/packages/firebase_auth): 3.1.1
 - [firebase_core](https://pub.dev/packages/firebase_core): 1.6.0
 - [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter): 9.1.0
 - [google_fonts](https://pub.dev/packages/google_fonts): 2.1.0
 - [google_sign_in](https://pub.dev/packages/google_sign_in): 5.1.1
+- [image_picker](https://pub.dev/packages/image_picker): ^0.8.4+2
 
 ---
 
