@@ -45,7 +45,7 @@ Abaixo são apresentados os passos necessários para que o App funcione.
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Flutter](https://flutter.dev/docs/get-started/install). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).<br/>
-Como o projeto utiliza o [Firebase](https://firebase.google.com/) para o processo de autenticação e para guarda os dados das mensagens, é necessário a criação do projeto no Firebase, permitir autenticação e fazer as devidas alterações no projeto.<br/>
+Como o projeto utiliza o [Firebase](https://firebase.google.com/) para o processo de autenticação e para guardar os dados das mensagens, é necessário a criação do projeto no Firebase, permitir autenticação e fazer as devidas alterações no projeto.<br/>
 
 #### ⚙️ Abaixo os passos necessários para integrar com o Firebase:
 <!--ts-->
